@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-/* Comment */
 int main(int argc, char *argv[])
 {
     int distance = 100;
-    // another comment
+    int height = 72;
     printf("You are %d miles away.\n", distance);
+    printf("You are %d inches tall.\n", height);
     return 0;
 }
